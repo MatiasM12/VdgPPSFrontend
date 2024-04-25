@@ -1,0 +1,49 @@
+form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 1rem;
+    
+}
+
+/*Iconos google fonts*/
+
+.material-icons{
+    color: #480971;
+}
+  
+
+
+
+button{
+    margin-top: 1rem;
+    padding: .5rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+
+.estado-actual{
+    border:1px solid black;
+    margin-top: 1rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    display: inline-block;
+    
+}
+
+
+
+
