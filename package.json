@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "nodemon server.js",
-    "build": "ng build",
+      "dev": "cd frontend && npm start & cd backend && npm start",
+      "start": "cd backend/built && node server.js",
+      "prebuild": "cd backend && npm run build",
+      "build": "cd frontend && npm run build",
+    
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
